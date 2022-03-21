@@ -1,11 +1,15 @@
 {
-  "name": "custom-react-components",
-  "version": "1.0.0",
+  "name": "@guoqqqi/custom-react-components",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/guoqqqi"
+  },
+  "version": "0.0.1",
   "repository": "git@github.com:guoqqqi/custom-react-components.git",
   "author": "guoqqqi <979918879@qq.com>",
   "license": "MIT",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "publish": "npm publish"
   },
   "dependencies": {
     "@rollup/plugin-commonjs": "^21.0.2",
@@ -27,5 +31,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "postcss": "^8.4.12"
+  }
 }
