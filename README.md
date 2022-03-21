@@ -8,10 +8,18 @@ yarn add @guoqqqi/custom-react-components@0.0.1
 
 ```tsx
 ...
-import { Button } from '@guoqqqi/custom-react-components';
+import { Button, Card } from '@guoqqqi/custom-react-components';
 ...
 
 return (
-  <Button label='I\'m a label' />
+  <>
+    <Button onClick={() => ()} label='Hello Word' />
+    <Card
+      imgvisible
+      title='My Blog'
+      desc='Learn all about My storyies, technical know-how and tips.'
+      buttonHref='href'
+    />
+  </>
 )
 ```
