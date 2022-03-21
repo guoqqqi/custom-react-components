@@ -3,7 +3,11 @@
 ## Uses
 
 ```shell
-yarn add @guoqqqi/custom-react-components@0.0.1
+# npm
+npm install @guoqqqi/custom-react-components@0.0.3
+
+# yarn
+yarn add @guoqqqi/custom-react-components@0.0.3
 ```
 
 ```tsx
