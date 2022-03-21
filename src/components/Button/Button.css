@@ -1,3 +1,26 @@
 button {
-  font-size: 60px;
+  overflow: hidden;
+  display: inline-flex;
+  white-space: nowrap;
+  background: #1155cb;
+  color: #fff;
+  border: 1px solid #a6c6ff;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 0.75rem;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 500;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+button:hover {
+  border-color: #0a2b66;
+  background: #0a2b66;
 }
