@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/guoqqqi"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": "git@github.com:guoqqqi/custom-react-components.git",
   "author": "guoqqqi <979918879@qq.com>",
   "license": "MIT",

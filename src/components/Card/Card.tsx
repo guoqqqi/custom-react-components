@@ -9,6 +9,7 @@ export interface CardProps {
   cardbg?: string;
   imgbg?: string;
   imgURL?: string;
+  imgvisible: boolean | true;
   buttonText?: string;
   buttonHref: string;
   buttonbg?: string;
@@ -19,9 +20,9 @@ const Card = (props: CardProps) => {
 
   return (
     <div className="cardBox" style={{ background: props.cardbg || '#a06aff' }}>
-      {props.imgURL &&
+      {props.imgvisible &&
         <div className="imgBox" style={{ background: props.imgbg || '#773ae7' }}>
-          <img src={props.imgURL} alt="" />
+          <img src={props.imgURL || 'https://static.apiseven.com/202108/book_icon.svg'} alt="" />
         </div>
       }
       <div className="cardBody">
