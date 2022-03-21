@@ -14,10 +14,7 @@ button {
   line-height: 1.5;
   font-weight: 500;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+  justify-content: center;
 }
 
 button:hover {
